@@ -22,6 +22,5 @@ export default {
 <style lang="scss">
   #app {
     width: 100vw;
-    background: #F5F6FA;
   }
 </style>

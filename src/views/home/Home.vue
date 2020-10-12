@@ -15,6 +15,9 @@ export default {
     components: {
         HomeHeader,
         HomeContent
+    },
+    beforeCreate(){
+        document.querySelector('body').setAttribute('style','background-color:#f5f6fa')
     }
 }
 </script>
@@ -22,9 +25,9 @@ export default {
 <style lang="scss" scoped>
     .container{
         width: 100%;
-        height: 100%;
+        // height: 100%;
         // overflow: hidden;
-        background: #F5F6FA;
+        // background: #F5F6FA;
         position: relative;
     }
 </style>>
